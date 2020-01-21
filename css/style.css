@@ -5,10 +5,12 @@
 
 body {
   margin: 0;
+  text-align: center;
+  background-color: white;
   font-size: 16px;
   line-height: 1.7;
   font-family: 'Roboto', sans-serif;
-  color: #2c2c54;
+  color: black;
 }
 
 .container {
@@ -19,5 +21,106 @@ body {
 
 section {
   padding: 46px 0;
+}
+
+/* Navigation */
+.navigation {
+  padding-top: 15px;
+  background-image: url("https://i.postimg.cc/XNGQRwPx/blank-business-composition-computer-373076-2.jpg");
+  min-height: 640px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.navigation::before {
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  content: '\A';
+  background-color: black;
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation ul {
+  list-style-type: none;
+}
+
+.navigation li {
+  position: relative;
+  display: inline-block;
+  margin: 0 36px 0 0;
+  left: 15%;
+}
+
+.navigation a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.navigation .logo {
+  left: -17%;
+}
+
+.navigation .logo a {
+  text-transform: capitalize;
+  font-family: 'Sacramento', cursive;
+  color: #FFD700;
+  font-size: 30px;
+  cursor: default;
+}
+
+/* Splash */
+.splash-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 1000px;
+  margin: 30px 0;
+  cursor: default;
+}
+
+.splash-inner h2 {
+  font-family: 'Gelasio', serif;
+  font-weight: 200;
+  font-style: oblique;
+  font-size: 40px;
+  margin: 0;
+  margin: 50px 0 0 0;
+  color: white;
+}
+
+.splash-inner h1 {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 65px;
+  margin: 0 0 30px 0;
+  color: white;
+}
+
+.navigation .btn {
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  border-width: 2px;
+  border-style: solid;
+  border: none;
+  background-color: #FFD700;
+  transition: 1s;
+}
+
+.navigation .btn:hover {
+  background-color: inherit;
+  color: #FFD700;
 }
 /*# sourceMappingURL=style.css.map */
