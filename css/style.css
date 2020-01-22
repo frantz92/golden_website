@@ -245,6 +245,7 @@ section {
 }
 
 .page-footer i {
+  position: relative;
   display: -ms-flexbox;
   display: flex;
   font-size: 20px;
@@ -268,5 +269,33 @@ section {
 
 .page-footer a {
   text-decoration: none;
+}
+
+/*Media*/
+@media (max-width: 767px) {
+  .wrapper {
+    -ms-flex-direction: column;
+        flex-direction: column;
+  }
+  .navigation .container {
+    font-size: 15px;
+  }
+  .navigation li {
+    padding: 0;
+    margin: 0 0 0 5px;
+    left: 5%;
+  }
+  .navigation .logo {
+    left: -18%;
+  }
+  .splash-inner h2 {
+    font-size: 30px;
+  }
+  .splash-inner h1 {
+    font-size: 40px;
+  }
+  .page-footer i {
+    left: 350%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
