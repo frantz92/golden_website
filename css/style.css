@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   font-family: 'Roboto', sans-serif;
-  color: black;
+  color: #574E4E;
 }
 
 .container {
@@ -220,5 +220,53 @@ section {
   font-style: oblique;
   font-size: 13px;
   color: grey;
+}
+
+/* Footer */
+.page-footer {
+  margin: 20px 0;
+  padding: 0 auto;
+}
+
+.page-footer p {
+  position: absolute;
+  font-size: 12px;
+}
+
+.page-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.page-footer li {
+  display: inline-block;
+}
+
+.page-footer i {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  transition: all 1s;
+}
+
+.page-footer i:hover {
+  transform: scale(1.1);
+}
+
+.page-footer a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
