@@ -123,4 +123,32 @@ section {
   background-color: inherit;
   color: #FFD700;
 }
+
+/* Our Services */
+.section-title {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 40px 0 0 0;
+}
+
+.section-subtitle {
+  font-family: 'Gelasio', serif;
+  font-weight: 200;
+  font-style: oblique;
+  font-size: 17px;
+  color: grey;
+  margin: 0 0 40px 0;
+}
+
+.services i {
+  font-size: 35px;
+  background: transparent;
+  border: solid 3px #FFD700;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  color: #FFD700;
+  /*position: ;            OBOK TEKSTU*/
+}
 /*# sourceMappingURL=style.css.map */
