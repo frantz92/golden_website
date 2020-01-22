@@ -154,5 +154,30 @@ section {
    line-height: 65px;
    border-radius: 50%;
    color: #FFD700;
-   /*position: ;            OBOK TEKSTU*/
+}
+
+.wrapper {
+    display: flex;
+    width: 95%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.box {
+    position: relative;
+    flex: 0 0 33.3333%;
+}
+
+.services h1 {
+  margin: 0;
+}
+
+.services p {
+  font-family: 'Gelasio', serif;
+  font-weight: 200;
+  font-size: 14px;
+  color: grey;
+  margin: 0 40px;
+  line-height: 1.2;
 }
