@@ -17,7 +17,6 @@ body {
   max-width: 1140px;
   padding: 0 20px;
   margin: 0 auto;
-
 }
 
 section {
@@ -25,7 +24,6 @@ section {
 }
 
 /* Navigation */
-
 .navigation {
   padding-top: 15px;
   background-image: url("https://i.postimg.cc/XNGQRwPx/blank-business-composition-computer-373076-2.jpg");
@@ -78,7 +76,6 @@ section {
 }
 
 /* Splash */
-
 .splash-inner {
   position: absolute;
   top: 50%;
@@ -105,7 +102,6 @@ section {
   font-size: 65px;
   margin: 0 0 30px 0;
   color: white;
-
 }
 
 .navigation .btn {
@@ -146,28 +142,28 @@ section {
 }
 
 .services i {
-   font-size: 35px;
-   background: transparent;
-   border: solid 3px #FFD700;
-   width: 65px;
-   height: 65px;
-   line-height: 65px;
-   border-radius: 50%;
-   color: #FFD700;
+  font-size: 35px;
+  background: transparent;
+  border: solid 3px #FFD700;
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  border-radius: 50%;
+  color: #FFD700;
 }
 
 .wrapper {
-    display: flex;
-    width: 95%;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 0 100px;
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 100px;
 }
 
 .box {
-    position: relative;
-    flex: 0 0 33.3333%;
+  position: relative;
+  flex: 0 0 33.3333%;
 }
 
 .services h1 {
@@ -184,29 +180,28 @@ section {
 }
 
 /* Our Portfolio */
-
 .portfolio {
   background-color: #F1F1F1;
 }
 
 .element {
-   flex: 0 0 31%;
-   height: 350px;
-   margin-bottom: 60px;
-   background-color: white;
+  flex: 0 0 31%;
+  height: 350px;
+  margin-bottom: 60px;
+  background-color: white;
 }
 
 .element .image {
-    float: left;
-    width: 100%;
-    height: 80%;
-    position: relative;
+  float: left;
+  width: 100%;
+  height: 80%;
+  position: relative;
 }
 
 .element .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio .element h4 {
@@ -223,10 +218,9 @@ section {
 }
 
 /* Footer */
-
 .page-footer {
-    margin: 20px 0;
-    padding: 0 auto;
+  margin: 20px 0;
+  padding: 0 auto;
 }
 
 .page-footer p {
@@ -235,68 +229,69 @@ section {
 }
 
 .page-footer ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .page-footer li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .page-footer i {
-    position: relative;
-    display: flex;
-    font-size: 20px;
-    color: white;
-    background: black;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    border-radius: 50%;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    transition: all 1s;
+  position: relative;
+  display: flex;
+  font-size: 20px;
+  color: white;
+  background: black;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
 }
 
 .page-footer i:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .page-footer a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*Media*/
 @media (max-width: 767px) {
-    .wrapper {
-        flex-direction: column;
-    }
+  .wrapper {
+    flex-direction: column;
+  }
 
-    .navigation .container {
-        font-size: 15px;
-    }
+  .navigation .container {
+    font-size: 15px;
+  }
 
-    .navigation li {
-        padding: 0;
-        margin: 0 0 0 5px;
-        left: 5%;
-    }
+  .navigation li {
+    padding: 0;
+    margin: 0 0 0 5px;
+    left: 5%;
+  }
 
-    .navigation .logo {
-      left: -18%;
-    }
+  .navigation .logo {
+    left: -18%;
+  }
 
-    .splash-inner h2 {
-      font-size: 30px;
-    }
-    .splash-inner h1 {
-      font-size: 40px;
-    }
+  .splash-inner h2 {
+    font-size: 30px;
+  }
 
-    .page-footer i {
-      left: 350%;
-    }
+  .splash-inner h1 {
+    font-size: 40px;
+  }
+
+  .page-footer i {
+    left: 350%;
+  }
 }
